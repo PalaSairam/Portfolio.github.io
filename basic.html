@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="Style/style.css">
+    <title>Responsive Personal Portfolio Website</title>
+</head>
+<body>
+    <!--Header Design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#pro">Projects</a>
+            <a href="#contact">Contact</a>
+
+    </header>
+
+    <!--HOME SECTION-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi,Myself</h1>
+            <h1>Sairam Pala</h1>
+            <h3>And I'm an aspiring <span class="multiple-text"></span></h3>
+            <p>Recent graduate passionate about building innovative web and software solutions, eager to contribute and grow in the tech industry.</p>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                
+            </div>
+            <a href=""class= "btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="Img/DP.png" alt="">
+        </div>
+    </section>
+    <!--ABOUT SECTION-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Img/about.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>ME</span></h2>
+            <h3>Software Engineer</h3>
+            <p>I am Sairam Pala, an aspiring software engineer and a recent graduate in Computer Science Engineering from Guru Nanak Institute of Technology, Hyderabad, with a CGPA of 8.60. I have a strong foundation in programming languages such as Java, C, Python (Basics), HTML, CSS, JavaScript, and SQL. I am also skilled in using tools like Android Studio, Power BI, and MS Office.
+
+                I have gained practical experience in web development through a virtual internship at PHN Technology, where I developed static web pages using HTML, CSS, and PHP. This experience helped me enhance my technical and problem-solving skills while working on real-world projects.
+                
+                I am a self-motivated and adaptable individual, always eager to learn and explore new technologies. I am looking for opportunities in software engineering where I can apply my skills, contribute to innovative projects, and continue growing as a professional in the tech industry.</p>
+                <a href="" class="btn">Read More</a>
+        </div>
+    </section>
+    <!--Services Section-->
+    <section class="services" id="services">
+        <h2 class="heading">MY <span>SERVICES</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>I specialize in building responsive and visually appealing websites using HTML, CSS, and JavaScript. With experience in developing static web pages during my internship at PHN Technology, I am skilled in creating user-friendly and efficient web designs that meet the needs of both businesses and individuals</p>
+                <a href="#" class="btn">Read More</a>
+
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Software Development</h3>
+                <p>Trained in programming languages like Java and C, I am adept at designing and developing software solutions. My focus is on creating robust and scalable applications that solve real-world problems while ensuring optimal performance and functionality.
+
+                </p>
+                <a href="#" class="btn">Read More</a>
+
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>App Development</h3>
+                <p>With a strong foundation in Android Studio, I am capable of developing mobile applications that are both intuitive and feature-rich. I focus on creating apps that provide seamless user experiences, tailored to meet specific user requirements, and adaptable to various business needs.</p>
+                <a href="#" class="btn">Read More</a>
+
+            </div>
+        </div>
+
+    </section>
+    <!--Projects Section-->
+    <section class="pro" id="pro">
+        <h2 class="heading">LATEST <span>PROJECTS</span></h2>
+        <div class="pro-container">
+            <div class="pro-box">
+                <img src="Img/2.jpg" alt="">
+                <div class="pro-layer">
+                    <h4>Web Design</h4>
+                    <p>Privacy Preserving Electronic Ticket Scheme Using Attribute Credentials</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+
+            </div>
+            <div class="pro-box">
+                <img src="Img/1.jpg" alt="">
+                <div class="pro-layer">
+                    <h4>App Design</h4>
+                    <p>Android Crime Reporting and Missing Person Finder</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+<!--Contact Section-->
+<section class="contact" id="contact">
+    <h2 class="heading">CONTACT <span>ME</span></h2>
+    <form action="#">
+        <div class="ibox">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="ibox">
+            <input type="text" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+<!--Footer-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Designed by Sairam Pala</p>
+    </div>
+    <div class="top">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+</footer>
+<!--Scroll Reveal JS-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!--Typed JS-->
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!--JS-->
+    <script src="main.js" ></script>
+</body>
+</html>
